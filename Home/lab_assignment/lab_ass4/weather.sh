@@ -7,7 +7,7 @@ cat $file1
 echo 
 
 echo  -e DAYT '\t' TEMPERATURE '\t' WEATHER  >> out2
-
+rm out2
 if [ -f $file1 ]
 then
   exec<$file1
